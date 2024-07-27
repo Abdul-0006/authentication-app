@@ -12,11 +12,11 @@ body {
 }
 h1 {
   margin-left: 85px;
-  color: rgb(154, 154, 170);
+  color: rgb(208, 208, 210);
 }
 h2 {
   margin-left: 150px;
-  color: rgb(154, 154, 170);
+  color: rgb(208, 208, 210);
 }
 .email {
   background-color: rgba(207, 199, 199, 0.8);
@@ -27,6 +27,7 @@ h2 {
   border-radius: 10px;
   border: none;
   outline: none;
+
 }
 .password {
   background-color: rgba(207, 199, 199, 0.8);
@@ -51,4 +52,12 @@ h2 {
 }
 .btn:hover {
   cursor: pointer;
+  background-color: rgba(207, 199, 199, 1);
+}
+.email:hover {
+  background-color: rgba(207, 199, 199, 1);
+}
+
+.password:hover {
+  background-color: rgba(207, 199, 199, 1);
 }
